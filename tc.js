@@ -15,3 +15,4 @@ function kc(temperature) {
   document.getElementById("fahrenheit").value = ((temperature - 273.15) * 1.8) + 32;
   document.getElementById("celsius").value = temperature - 273.15;
 }
+
