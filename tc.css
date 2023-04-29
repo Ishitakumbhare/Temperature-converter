@@ -1,0 +1,76 @@
+
+.container{
+    margin-top: 5%;
+}
+
+.card{
+    padding: 5%
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 1;
+  padding: 10;
+}
+
+body {
+  font-family: 'Audiowide', cursive;
+  background-color: lightsalmon;
+  color: red ;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.h1{
+  color: #222;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.temperature-converter {
+  background: red;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 25px 20px;
+  min-width: 320px;
+  width: 100%;
+  height: auto;
+}
+.celsius-value {
+  border-bottom: 2px solid #ccc;
+  padding: 10px;
+}
+label {
+  color: #555;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+input,
+select {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ccc;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+input:focus {
+  border: 1px solid #4c49f3;
+}
+.degree-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.degree-field {
+  display: flex;
+  flex-direction: column;
+  width: 46%;
+}
